@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CoffeFragment">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="380dp"
+        android:layout_height="650dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#55230c"
+        app:cardCornerRadius="60dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="Coffee"
+            android:textColor="#000"
+            android:textSize="44dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/txtCofe"
+            android:layout_width="800px"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="50dp"
+            android:paddingHorizontal="@dimen/cardview_default_elevation"
+            android:scaleType="centerCrop"
+            android:src="@drawable/coffe" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="270dp"
+            android:src="@drawable/ic_baseline_favorite" />
+
+        <ImageView
+            android:layout_width="29dp"
+            android:layout_height="29dp"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="600dp"
+            android:src="@drawable/ic_baseline_share" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="600dp"
+            android:src="@drawable/ic_baseline_star" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="160dp"
+            android:layout_marginRight="10dp"
+            android:text="O café é uma bebida produzida a partir dos grãos torrados do fruto do cafeeiro. É servido tradicionalmente quente, mas também pode ser consumido gelado. "
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>
